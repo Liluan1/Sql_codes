@@ -1,0 +1,1 @@
+select distinct ename, sal from emp;

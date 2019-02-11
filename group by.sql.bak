@@ -1,0 +1,4 @@
+select deptno, job, avg(sal)
+	from emp
+	group by deptno, job --要明白只写job是不对的
+	order by deptno
